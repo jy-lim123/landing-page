@@ -19,6 +19,7 @@ body{
 }
 
 .header,
+.footer,
 .hero{
   background-color: #1F2937;
   font-size: 18px;
@@ -29,6 +30,9 @@ ul{
   list-style-type: none;
   padding: 0px;
   margin: 0px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
 }
 
 a{
@@ -46,10 +50,64 @@ button{
   border: 0px;
 }
 
-.information-container{
-
+.information-container h2{
+  font-size: 36px;
+  font-weight: 900;
+  color:#1F2937;
 }
 
 .quote-container{
   background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 100px;
+}
+
+.quote{
+  font-style: oblique;
+  color: #1F2937;
+  font-size: 24px;
+  margin: 0px 50px 0px 50px;
+}
+
+.quoter{
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.signup-container{
+  background-color: #3882F6;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #F9FAF8;
+}
+
+.signup-container p{
+  color:#E5E7EB;
+}
+
+#cta-button{
+  border: 2px solid;
+  border-color: #F9FAF8;
+
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header{
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+}
+
+.hero{
+  display: flex;
 }
